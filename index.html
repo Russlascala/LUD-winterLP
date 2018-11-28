@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan USA Direct</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
+    <!-- font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; -->
+    
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" href="imgs/favicon.png" type="image/ico" sizes="16x16">
+    </head>
+</head>
+<body>
+    <!-- Header -->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="imgs/logo.png" id="logo" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 mx-auto" id="tagline">
+               <p><i class="fas fa-hand-holding-usd fa-fw"></i>Need some extra cash<br>to get you through winter?</p> 
+            </div>
+        </div>
+    </div>
+    <div class="topBarColor">
+        <div class="container">
+            <p>Fast Loans of<br class="hideDskt"> $400 –$10,000</p>    
+        </div>
+    </div>
+    <!-- Banner with Form -->
+    <div id="bannerImg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 bottomMobile " id="hero-content">
+                    <div id="hero-txt">
+                        <table>
+                            <tr>
+                                <td class="faIcon">
+                                    <i class="far fa-clock fa-fw"></i>
+                                </td>
+                                <td>
+                                    <p>No waiting, no hassle and no embarrassing credit checks required!</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faIcon">
+                                    <i class="fas fa-file-contract fa-fw"></i>
+                                </td>
+                                <td>
+                                    <p>Fill out our risk-free application and receive your personalized loan offer instantly!</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="faIcon">
+                                    <i class="fas fa-lock fa-fw"></i>
+                                </td>
+                                <td>
+                                    <p>LoanUSADirect.com uses SSL Encryption to protect your information.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 topMobile">
+                    <div id="form-head">
+                        <h2><i class="fa fa-check-circle fa-fw animated bounce" id="startCheck" aria-hidden="true"></i>Start Here</h2>
+                    </div>
+                    <form id="main_form" method="post" action="/submit">
+                        
+                        <!-- Email Input -->
+                        <p>
+                            <input type="email" placeholder="Email" id="email" vtype="email" class="form-field" name="edit_email" verrorcall="DivMessage('%%control_id%%')" vprecall="HideMessage()" title="Please ensure entered email is valid.">
+                        </p>
+                        <!-- State Dropdown -->
+                        <p>
+                        <select id="select-debt" class="select-dropdown form-field" onselect="this.className = ''">
+                            <option value="" selected hidden>State</option>
+                            <option value="AL">AL</option>
+                            <option value="AK">AK</option>
+                            <option value="AZ">AZ</option>
+                            <option value="AR">AR</option>
+                            <option value="CA">CA</option>
+                            <option value="CO">CO</option>
+                            <option value="CT">CT</option>
+                            <option value="DE">DE</option>
+                            <option value="DC">DC</option>
+                            <option value="FL">FL</option>
+                            <option value="GA">GA</option>
+                            <option value="HI">HI</option>
+                            <option value="ID">ID</option>
+                            <option value="IL">IL</option>
+                            <option value="IN">IN</option>
+                            <option value="IA">IA</option>
+                            <option value="KS">KS</option>
+                            <option value="KY">KY</option>
+                            <option value="LA">LA</option>
+                            <option value="ME">ME</option>
+                            <option value="MD">MD</option>
+                            <option value="MA">MA</option>
+                            <option value="MI">MI</option>
+                            <option value="MN">MN</option>
+                            <option value="MS">MS</option>
+                            <option value="MO">MO</option>
+                            <option value="MT">MT</option>
+                            <option value="NE">NE</option>
+                            <option value="NV">NV</option>
+                            <option value="NH">NH</option>
+                            <option value="NJ">NJ</option>
+                            <option value="NM">NM</option>
+                            <option value="NY">NY</option>
+                            <option value="NC">NC</option>
+                            <option value="ND">ND</option>
+                            <option value="OH">OH</option>
+                            <option value="OK">OK</option>
+                            <option value="OR">OR</option>
+                            <option value="PA">PA</option>
+                            <option value="RI">RI</option>
+                            <option value="SC">SC</option>
+                            <option value="SD">SD</option>
+                            <option value="TN">TN</option>
+                            <option value="TX">TX</option>
+                            <option value="UT">UT</option>
+                            <option value="VT">VT</option>
+                            <option value="VA">VA</option>
+                            <option value="WA">WA</option>
+                            <option value="WV">WV</option>
+                            <option value="WI">WI</option>
+                            <option value="WY">WY</option>
+                        </select>
+                        </p>
+                        <table id="div_iagree">
+                            <tbody>
+                                <tr>
+                            
+                                <td>
+                                    <input type="checkbox" id="iagree" name="iagree" value="1">
+                                </td>
+                            
+                            
+                                <td>
+                                    <label for='iagree' style='margin-bottom: 0px;'><input type="hidden" id="leadid_tcpa_disclosure"/>
+                                    I have read and agree to the website<a href='/inc/privacypolicy.php' onclick="open(this.getAttribute('href'),'CT','resizable=no,scrollbars=yes,toolbar=no,location=no,directories=no,status=no,menubar=no,width=620,height=400'); return false;"
+                                        title="Privacy Policy"> privacy&nbsp;policy</a> and <a href="#">Terms & Conditions.</a></label>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                           
+                        <div id="btn-div">
+                            <button class="btn btn-block" type="submit" id="submitBtn">Get Cash Today!</button>
+                        </div>
+
+                        
+                    </form>  
+                </div>
+            </div>    
+        </div>
+    </div>
+    <!-- Three Blocks -->
+    <div class="container">
+        <div class="row" id="threeBlocks">
+            <div class="col-md-4">
+                <span><i class="fas fa-globe fa-fw fa-4x"></i></span>
+                <h3>Lenders are Online</h3>
+                <p>2-Steps Fast and Easy Application</p>
+            </div>   
+            <div class="col-md-4">
+                <span><i class="fas fa-user-secret fa-fw fa-4x"></i></span>
+                <h3>Safe &amp; Secure</h3>
+                <p>Your personal data is encrypted and protected</p>
+            </div>
+            <div class="col-md-4">
+                <span><i class="fas fa-stopwatch fa-fw fa-4x"></i></span>
+                <h3>Fast Approvals</h3>
+                <p>Your Loan will be transfered
+                into your account in no time.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image and List -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="imgs/money-penguin2.png">
+            </div>
+            <div class="col-md-6 " id="moneyFor">
+               
+                <h3>What can I use an Loan for?</h3>
+                <ul class="fa-ul">
+                    <li class="fa fa-check fa-fw"></li>Unexpected emergencies
+                </ul>
+                <ul class="fa-ul">
+                    <li class="fa fa-check fa-fw"></li>Vehicle Repairs
+                </ul>
+                <ul class="fa-ul">
+                    <li class="fa fa-check fa-fw"></li>Debt Consolidation
+                </ul>
+                <ul class="fa-ul">
+                    <li class="fa fa-check fa-fw"></li>Medical Bills
+                </ul>
+                <ul class="fa-ul">
+                    <li class="fa fa-check fa-fw"></li>Special Events
+                </ul>
+                <ul class="fa-ul">
+                    <li class="fa fa-check fa-fw"></li>Small Business Loans
+                </ul>
+                <ul class="fa-ul">
+                    <li class="fa fa-check fa-fw"></li>Home Improvements
+                </ul>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    
+   
+    <!-- Footer -->
+    <footer class="text-center" style="background: lightgray;">
+        <div style=" text-align:center !important; font-size:12px; color:#333;  padding:0 0%; "> <br>
+            <br>
+            <a href="#" onclick="return !window.open(this.href, 'link', 'width=600,height=500')" target="_blank">Privacy
+                Policy</a> | <a href="#" onclick="return !window.open(this.href, 'link', 'width=600,height=500')"
+                target="_blank">Terms and Conditions</a> | <a href="#" onclick="return !window.open(this.href, 'link', 'width=500,height=600')"
+                target="_blank">Unsubscribe</a>
+            <p> &copy;&nbsp;
+                <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script>
+                &nbsp; LoanUSADirect.com. All Rights Reserved. <br>
+                <br>
+                <br>
+            </p>
+        </div>
+    </footer>
+    
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
